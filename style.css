@@ -1,16 +1,21 @@
-main{
+body {
+    background-color:  hsl(31, 53%, 90%);
+
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
 
-    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    padding: 2rem;
 
-    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-content{
-    grid-column: 3/4;
+.content{
+    grid-column: 2/4;
+    background-color: hsl(0, 0%, 100%);
 
-    background-color: gray;
     border-radius: 20px;
-
-    margin: 60px;
+    
+    padding: 2rem;
 }
